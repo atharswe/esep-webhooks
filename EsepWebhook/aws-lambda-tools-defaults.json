@@ -1,0 +1,10 @@
+﻿{
+  "Information": ["Deploy with: dotnet lambda deploy-function EsepWebhook", "Do NOT put the Slack URL here; set SLACK_URL in the Lambda console."],
+  "profile": "default",
+  "region": "us-east-2",
+  "configuration": "Release",
+  "function-runtime": "dotnet10",
+  "function-memory-size": 512,
+  "function-timeout": 15,
+  "function-handler": "EsepWebhook::EsepWebhook.Function::FunctionHandler"
+}
